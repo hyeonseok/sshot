@@ -1,4 +1,4 @@
-# SSHot - Puppeteer 기반 웹 스크린샷 서버
+# 스샷 - Puppeteer 기반 웹 스크린샷 서버
 
 URL을 입력받아 웹페이지의 스크린샷을 캡처한 후 `screenshots/` 디렉토리에 WebP로 저장하고 파일명을 반환하는 Node.js 서버입니다.
 
@@ -46,7 +46,7 @@ npm start
 - `scale` (선택): 디바이스 스케일 팩터 (기본값: 1)
 - `quality` (선택): WebP 품질 0-100 (기본값: 80)
 - `fullPage` (선택): 전체 페이지 캡처 여부 (기본값: false)
-- `filename` (선택): 파일명 (기본값: 타임스탬프 추가하여 자동 생성)
+- `filename` (선택): 파일명 (기본값: screenshot_{timestamp}.webp)
 
 **Response:**
 ```json
